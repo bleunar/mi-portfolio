@@ -1,0 +1,82 @@
+{
+    "hero": {
+        "full_name": "Your Name",
+        "tagline": "update your website data at data.json"
+    },
+
+
+    "contacts": [
+        {
+            "type": "Contact Information 1",
+            "icon": "envelope",
+            "value": "john@sample.com"
+        },
+        {
+            "type": "Contact Information 2",
+            "icon": "phone",
+            "value": "+XXXX XXX XXXX"
+        }
+    ],
+
+
+    "socials": [
+        {
+            "type": "Github",
+            "icon": "github",
+            "value": "https://www.google.com/search?q=github"
+        },
+        {
+            "type": "LinkedIn",
+            "icon": "linkedin",
+            "value": "https://www.google.com/search?q=linkedin"
+        },
+        {
+            "type": "Facebook",
+            "icon": "facebook",
+            "value": "https://www.google.com/search?q=facebook"
+        }
+    ],
+
+
+    "education": [
+        {
+            "title": "Sigma High School",
+            "subtitle": "2000",
+            "file": "university.gif"
+        },
+        {
+            "title": "University of Sigma",
+            "subtitle": "2001",
+            "file": "university.gif"
+        }
+    ],
+
+
+    "skill_set": [
+        {
+            "title": "Skill 1",
+            "subtitle": "Skill 1 description",
+            "gif": "web.gif"
+        },
+        {
+            "title": "Skill 2",
+            "subtitle": "Skill 2 description",
+            "gif": "cloud.gif"
+        },
+        {
+            "title": "Skill 3",
+            "subtitle": "Skill 3 description",
+            "gif": "person.gif"
+        },
+        {
+            "title": "Skill 4",
+            "subtitle": "Skill 4 description",
+            "gif": "wrench.gif"
+        },
+        {
+            "title": "Skill 5",
+            "subtitle": "Skill 5 description",
+            "gif": "network.gif"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+
+/* BUTTONS */
+.button-wrapper {
+  display: inline-block;
+  background-color: black;
+  padding: 0px;
+  border-radius: 5px;
+}
+
+.button-component {
+  display: inline-block;
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  padding: 0.25rem .75rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 150ms ease-in-out;
+  transform: translate(-3px, -3px);
+  border: 3px solid black !important;
+}
+
+.button-wrapper:hover .button-component {
+  transform: translate(0px, 0px);
+}
+
+
+
+
+/* COMPONENT SHADOWS */
+.shadowed {
+    border-radius: 5px;
+    border: 3px solid black !important;
+    box-shadow: 3px 3px 0px black !important;
+}
+
+
+
+/* IMAGE FILTER (BLACK AND WHITE) */
+.img-mono {
+  filter: grayscale(0%);
+}
+
+
+
+
+/* GENERAl */
+.bg-pattern {
+  background:url('/assets/background/pattern4.png');
+  background-size: 5%;
+  background-position: center; 
+  background-repeat: repeat;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
