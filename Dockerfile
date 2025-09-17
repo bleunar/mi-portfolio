@@ -4,6 +4,8 @@ WORKDIR /portfolio
 
 COPY portfolio/package*.json ./
 
+RUN npm install
+
 COPY portfolio ./
 
 RUN npm run build
