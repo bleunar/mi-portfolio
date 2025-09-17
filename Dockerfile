@@ -1,12 +1,12 @@
 FROM node:18-alpine AS builder
 
-WORKDIR /portfolio
+WORKDIR portfolio
 
-COPY package*.json ./
+COPY portfolio/package*.json ./
 
 RUN npm install
 
-COPY . .
+COPY portfolio ./
 
 RUN npm run build
 
