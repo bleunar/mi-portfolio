@@ -4,10 +4,6 @@ WORKDIR /portfolio
 
 COPY portfolio/package*.json ./
 
-RUN apk add --no-cache python3 make g++ \
-    && npm cache clean --force \
-    && npm install
-
 COPY portfolio ./
 
 RUN npm run build
@@ -16,7 +12,7 @@ FROM nginx:stable-alpine
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-COPY --from=builder /portfolio/dist /usr/share/nginx/html
+COPY --from=builder /dist /usr/share/nginx/html
 
 EXPOSE 80
 
