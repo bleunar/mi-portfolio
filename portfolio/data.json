@@ -1,0 +1,82 @@
+{
+    "hero": {
+        "full_name": "Walter Hartwell White",
+        "tagline": "`The One who Knocks`"
+    },
+
+
+    "contacts": [
+        {
+            "type": "Email",
+            "icon": "envelope",
+            "value": "example@gmail.com"
+        },
+        {
+            "type": "Phone Number",
+            "icon": "phone",
+            "value": "09XX XXX XXXX"
+        }
+    ],
+
+
+    "socials": [
+        {
+            "type": "Facebook",
+            "icon": "facebook",
+            "value": "https://www.google.com/search?q=facebook"
+        },
+        {
+            "type": "Github",
+            "icon": "github",
+            "value": "https://www.google.com/search?q=github"
+        },
+        {
+            "type": "LinkedIn",
+            "icon": "linkedin",
+            "value": "https://www.google.com/search?q=linkedin"
+        }
+    ],
+
+
+    "education": [
+        {
+            "title": "ABQ High School",
+            "subtitle": "1969",
+            "file": "university.gif"
+        },
+        {
+            "title": "University of ABQ",
+            "subtitle": "Maybe",
+            "file": "university.gif"
+        }
+    ],
+
+
+    "skill_set": [
+        {
+            "title": "Development",
+            "subtitle": "Java, Python, JavaScript, etc.",
+            "gif": "web.gif"
+        },
+        {
+            "title": "Networking",
+            "subtitle": "Network Administrator and Maintenance",
+            "gif": "network.gif"
+        },
+        {
+            "title": "Servers",
+            "subtitle": "Server Management via Home Lab",
+            "gif": "server.gif"
+        },
+        {
+            "title": "Tech Support",
+            "subtitle": "IT Support and Maintenane",
+            "gif": "wrench.gif"
+        },
+        {
+            "title": "Linux",
+            "subtitle": "Debian Based Distros",
+            "gif": "penguin.gif"
+        }
+    ]
+}
