@@ -8,12 +8,12 @@ export default function HeroSection() {
         <>
             <div className="container my-5">
 
-                <div className="row row-cols-1 row-cols-lg-2 shadowed bg-light">
+                <div className="row row-cols-1 row-cols-lg-2 shadowed bg-light m-2">
                     <div className="col my-5">
                         <div className="h-100 d-flex justify-content-center align-items-center flex-column">
                             <div className="text-center text-dark mb-3">
                                 <div className="h1 fw-bolder text-capitalize">{data.hero.full_name}</div>
-                                <div className=" shadowed p-1 bg-light">{data.hero.tagline}</div>
+                                <div className="h4">{data.hero.tagline}</div>
                             </div>
 
                             <div className="d-flex fs-5 justify-content-center gap-3">
