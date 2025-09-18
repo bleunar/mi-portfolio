@@ -7,6 +7,16 @@ export default defineConfig({
   build: {
     outDir: '../dist'
   },
+  server: {
+    host: "0.0.0.0",
+    port: 5173,
+    strictPort: true,
+    allowedHosts: [
+      'localhost',
+      '127.0.0.1',
+      'portfolio.testing-grounds.xyz'
+    ]
+  },
   css: {
     preprocessorOptions: {
       scss: {
