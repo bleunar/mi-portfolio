@@ -28,7 +28,7 @@ export default function NavigationBar() {
                             ))
                         }
 
-                        <div className="border border-end border-black ms-1 me-2"></div>
+                        <div className="border border-end border-secondary-subtle ms-1 me-2"></div>
 
 
                         {
@@ -38,6 +38,14 @@ export default function NavigationBar() {
                                 </Button>
                             ))
                         }
+                        
+                        <div className="border border-end border-secondary-subtle ms-1 me-2"></div>
+
+                        <Button
+                            type="primary"
+                            className="text-nowrap"
+                            onClick={() => console.log("Do somenting")}
+                        >Hire Me</Button>
                     </div>
                 </div>
             </div>
