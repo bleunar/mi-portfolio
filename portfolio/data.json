@@ -1,7 +1,7 @@
 {
     "hero": {
         "full_name": "Walter Hartwell White",
-        "tagline": "`The One who Knocks`"
+        "tagline": "`The One Who Knocks`"
     },
 
 
@@ -54,12 +54,12 @@
 
     "skill_set": [
         {
-            "title": "Development",
+            "title": "Chicanery",
             "subtitle": "Java, Python, JavaScript, etc.",
             "gif": "web.gif"
         },
         {
-            "title": "Networking",
+            "title": "Gus",
             "subtitle": "Network Administrator and Maintenance",
             "gif": "network.gif"
         },
